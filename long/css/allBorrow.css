@@ -1,0 +1,38 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  body .container, html .container {
+    width: 100%;
+    height: 100%;
+    background: url("../images/allBorrow-bg.png") 0% 0%/100% 100%; }
+  body .btn, html .btn {
+    width: 100%;
+    padding: 0 26px;
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 25px; }
+    body .btn > div, html .btn > div {
+      float: left;
+      border-radius: 10px;
+      border: 1px solid #333;
+      font-size: 18px;
+      width: 150px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center; }
+    body .btn .android, html .btn .android {
+      color: #4C98FF; }
+    body .btn .ios, html .btn .ios {
+      color: #252525;
+      margin-left: 19px; }
+
+@media screen and (min-width: 700px) {
+  .btn {
+    max-width: 750px; }
+    .btn > div {
+      cursor: pointer; }
+    .btn .ios {
+      float: right; } }
+
+/*# sourceMappingURL=allBorrow.css.map */

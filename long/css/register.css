@@ -1,0 +1,147 @@
+body, html {
+  width: 100%;
+  height: 100%; }
+  body .container, html .container {
+    width: 100%;
+    height: 1577px;
+    box-sizing: border-box;
+    background: url("../images/bc.png") 0% 0%/100% 100%;
+    position: relative; }
+    body .container .main, html .container .main {
+      position: absolute;
+      top: 620px;
+      left: 0;
+      padding: 0 22px;
+      box-sizing: border-box;
+      width: 100%;
+      height: 257px; }
+      body .container .main .content, html .container .main .content {
+        background: rgba(255, 255, 255, 0.8);
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding: 25px 24px 0 24px; }
+        body .container .main .content .text, html .container .main .content .text {
+          line-height: 16px;
+          text-align: center; }
+          body .container .main .content .text span, html .container .main .content .text span {
+            font-size: 16px;
+            color: #711F02; }
+        body .container .main .content .input_container, html .container .main .content .input_container {
+          width: 100%; }
+          body .container .main .content .input_container :-moz-placeholder, html .container .main .content .input_container :-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #999999;
+            opacity: 1; }
+          body .container .main .content .input_container ::-moz-placeholder, html .container .main .content .input_container ::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #999999;
+            opacity: 1; }
+          body .container .main .content .input_container input:-ms-input-placeholder, html .container .main .content .input_container input:-ms-input-placeholder {
+            color: #999999;
+            opacity: 1; }
+          body .container .main .content .input_container input::-webkit-input-placeholder, html .container .main .content .input_container input::-webkit-input-placeholder {
+            color: #999999;
+            opacity: 1; }
+          body .container .main .content .input_container .input, html .container .main .content .input_container .input {
+            margin-top: 23px;
+            height: 45px;
+            overflow: hidden;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            position: relative; }
+            body .container .main .content .input_container .input:first-child, html .container .main .content .input_container .input:first-child {
+              margin-top: 20px; }
+            body .container .main .content .input_container .input span, html .container .main .content .input_container .input span {
+              display: inline-block;
+              width: 7px;
+              height: 100%;
+              background: #FFD541; }
+            body .container .main .content .input_container .input input, html .container .main .content .input_container .input input {
+              margin-left: 12px;
+              padding: 0;
+              width: 100%;
+              outline: none;
+              position: absolute;
+              max-width: 220px;
+              top: 0;
+              height: 100%;
+              border: none; }
+          body .container .main .content .input_container .phone_input, html .container .main .content .input_container .phone_input {
+            background: #fff; }
+          body .container .main .content .input_container .verify_input, html .container .main .content .input_container .verify_input {
+            width: 100%;
+            background: inherit; }
+            body .container .main .content .input_container .verify_input input, html .container .main .content .input_container .verify_input input {
+              width: 132px;
+              padding: 0 12px;
+              background: #fff;
+              margin-left: 0px;
+              border-bottom-right-radius: 5px;
+              border-top-right-radius: 5px; }
+            body .container .main .content .input_container .verify_input .getVerify, html .container .main .content .input_container .verify_input .getVerify {
+              display: inline-block;
+              background: #FFDB15;
+              height: 42px;
+              line-height: 44px;
+              color: #771F00;
+              text-align: center;
+              box-shadow: 0px 2px #D0B310;
+              border-radius: 10px;
+              width: 90px;
+              position: absolute;
+              left: 190px;
+              top: 0;
+              font-size: 13px; }
+          body .container .main .content .input_container .btn, html .container .main .content .input_container .btn {
+            background: #FFDB15;
+            text-align: center;
+            color: #771F00;
+            line-height: 45px;
+            border-radius: 25px;
+            box-shadow: 0px 2px #D0B310; }
+      body .container .main .down_btn, html .container .main .down_btn {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 325px; }
+        body .container .main .down_btn > div, html .container .main .down_btn > div {
+          width: 137px;
+          height: 55px;
+          line-height: 55px;
+          text-align: center;
+          color: #fff;
+          border-radius: 10px;
+          float: left; }
+        body .container .main .down_btn .ios, html .container .main .down_btn .ios {
+          background: #313131;
+          margin-left: 15px; }
+        body .container .main .down_btn .Android, html .container .main .down_btn .Android {
+          background: #FF651A;
+          margin-left: 30px; }
+  body footer, html footer {
+    width: 200px;
+    margin: 0 auto;
+    height: 100px; }
+    body footer img, html footer img {
+      width: 100%;
+      height: 100%; }
+
+@media only screen and (min-width: 700px) {
+  .down_btn > div {
+    cursor: pointer; }
+  .down_btn .Android {
+    float: right !important; }
+
+  .verify_input {
+    position: relative !important; }
+    .verify_input .getVerify {
+      position: absolute;
+      left: inherit !important;
+      right: 0 !important;
+      cursor: pointer; }
+
+  .btn {
+    cursor: pointer; } }
+
+/*# sourceMappingURL=register.css.map */
