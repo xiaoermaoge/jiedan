@@ -16,20 +16,22 @@ body,html{
     bottom: 25px;
     >div{
       float: left;
-      border-radius: 10px;
-      border: 1px solid #333;
+      //border-radius: 10px;
+      //border: 1px solid #333;
       font-size: 18px;
-      width: 150px;
-      height: 50px;
-      line-height: 50px;
+      width: 300px;
+      height: 100px;
+      //line-height: 50px;
       text-align: center;
     }
     .android{
       color: #4C98FF;
+      background: url('../images/all-android.png') 0% 0% /100% 100%;
     }
     .ios{
       color: #252525;
       margin-left: 19px;
+      background: url('../images/all-ios.png') 0% 0% /100% 100%;
     }
   }
 }

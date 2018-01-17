@@ -14,18 +14,17 @@ body, html {
     bottom: 25px; }
     body .btn > div, html .btn > div {
       float: left;
-      border-radius: 10px;
-      border: 1px solid #333;
       font-size: 18px;
-      width: 150px;
-      height: 50px;
-      line-height: 50px;
+      width: 300px;
+      height: 100px;
       text-align: center; }
     body .btn .android, html .btn .android {
-      color: #4C98FF; }
+      color: #4C98FF;
+      background: url("../images/all-android.png") 0% 0%/100% 100%; }
     body .btn .ios, html .btn .ios {
       color: #252525;
-      margin-left: 19px; }
+      margin-left: 19px;
+      background: url("../images/all-ios.png") 0% 0%/100% 100%; }
 
 @media screen and (min-width: 700px) {
   .btn {

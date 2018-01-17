@@ -6,7 +6,7 @@ function viewPort(userAgent, pageWidth) {
         document.head.removeChild(oView);
     }
     if (!pageWidth) {
-        pageWidth = 375;
+        pageWidth = 750;
     }
     var screen_w = parseInt(window.screen.width),
         scale = screen_w / pageWidth;

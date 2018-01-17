@@ -9,7 +9,7 @@ body, html {
     width: 100%;
     max-width: 750px;
     position: fixed;
-    bottom: 10px; }
+    bottom: 20px; }
     body .bottom .btn_container, html .bottom .btn_container {
       width: 100%;
       display: inline-block;
@@ -18,8 +18,8 @@ body, html {
       box-sizing: border-box; }
       body .bottom .btn_container > div, html .bottom .btn_container > div {
         float: left;
-        width: 150px;
-        height: 50px; }
+        width: 300px;
+        height: 100px; }
       body .bottom .btn_container .android, html .bottom .btn_container .android {
         background: url("../images/wuyou-android.png") 0% 0%/100% 100%; }
       body .bottom .btn_container .ios, html .bottom .btn_container .ios {
@@ -27,9 +27,9 @@ body, html {
         background: url("../images/wuyou-ios.png") 0% 0%/100% 100%; }
     body .bottom .text, html .bottom .text {
       text-align: center;
-      font-size: 12px;
+      font-size: 24px;
       color: #97A0A4;
-      margin-top: 25px; }
+      margin-top: 50px; }
 
 @media screen and (min-width: 700px) {
   .bottom .btn_container .ios {

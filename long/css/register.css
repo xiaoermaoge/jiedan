@@ -9,24 +9,24 @@ body, html {
     position: relative; }
     body .container .main, html .container .main {
       position: absolute;
-      top: 620px;
+      top: 680px;
       left: 0;
-      padding: 0 22px;
+      padding: 0 44px;
       box-sizing: border-box;
       width: 100%;
-      height: 257px; }
+      height: 468px; }
       body .container .main .content, html .container .main .content {
         background: rgba(255, 255, 255, 0.8);
         width: 100%;
         height: 100%;
         border-radius: 20px;
         box-sizing: border-box;
-        padding: 25px 24px 0 24px; }
+        padding: 40px 48px 0 48px; }
         body .container .main .content .text, html .container .main .content .text {
-          line-height: 16px;
+          line-height: 32px;
           text-align: center; }
           body .container .main .content .text span, html .container .main .content .text span {
-            font-size: 16px;
+            font-size: 32px;
             color: #711F02; }
         body .container .main .content .input_container, html .container .main .content .input_container {
           width: 100%; }
@@ -46,25 +46,26 @@ body, html {
             opacity: 1; }
           body .container .main .content .input_container .input, html .container .main .content .input_container .input {
             margin-top: 23px;
-            height: 45px;
+            height: 90px;
             overflow: hidden;
+            font-size: 32px;
             border-bottom-right-radius: 5px;
             border-top-right-radius: 5px;
             position: relative; }
             body .container .main .content .input_container .input:first-child, html .container .main .content .input_container .input:first-child {
-              margin-top: 20px; }
+              margin-top: 38px; }
             body .container .main .content .input_container .input span, html .container .main .content .input_container .input span {
               display: inline-block;
-              width: 7px;
+              width: 14px;
               height: 100%;
               background: #FFD541; }
             body .container .main .content .input_container .input input, html .container .main .content .input_container .input input {
-              margin-left: 12px;
+              margin-left: 24px;
               padding: 0;
               width: 100%;
               outline: none;
               position: absolute;
-              max-width: 220px;
+              max-width: 440px;
               top: 0;
               height: 100%;
               border: none; }
@@ -74,7 +75,7 @@ body, html {
             width: 100%;
             background: inherit; }
             body .container .main .content .input_container .verify_input input, html .container .main .content .input_container .verify_input input {
-              width: 132px;
+              width: 264px;
               padding: 0 12px;
               background: #fff;
               margin-left: 0px;
@@ -83,51 +84,62 @@ body, html {
             body .container .main .content .input_container .verify_input .getVerify, html .container .main .content .input_container .verify_input .getVerify {
               display: inline-block;
               background: #FFDB15;
-              height: 42px;
-              line-height: 44px;
+              height: 84px;
+              line-height: 88px;
               color: #771F00;
               text-align: center;
               box-shadow: 0px 2px #D0B310;
               border-radius: 10px;
-              width: 90px;
+              width: 180px;
               position: absolute;
               left: 190px;
               top: 0;
-              font-size: 13px; }
+              font-size: 26px; }
           body .container .main .content .input_container .btn, html .container .main .content .input_container .btn {
             background: #FFDB15;
             text-align: center;
             color: #771F00;
-            line-height: 45px;
+            line-height: 90px;
             border-radius: 25px;
             box-shadow: 0px 2px #D0B310; }
       body .container .main .down_btn, html .container .main .down_btn {
         width: 100%;
         box-sizing: border-box;
-        margin-top: 325px; }
+        margin-top: 190px; }
         body .container .main .down_btn > div, html .container .main .down_btn > div {
-          width: 137px;
-          height: 55px;
-          line-height: 55px;
+          width: 274px;
+          height: 110px;
+          line-height: 110px;
           text-align: center;
           color: #fff;
           border-radius: 10px;
+          font-size: 32px;
           float: left; }
         body .container .main .down_btn .ios, html .container .main .down_btn .ios {
-          background: #313131;
-          margin-left: 15px; }
+          margin-left: 35px;
+          background: url("../images/iphone.png") 0% 0%/100% 100%; }
         body .container .main .down_btn .Android, html .container .main .down_btn .Android {
-          background: #FF651A;
-          margin-left: 30px; }
+          margin-right: 35px;
+          background: url("../images/android.png") 0% 0%/100% 100%; }
   body footer, html footer {
-    width: 200px;
+    width: 400px;
     margin: 0 auto;
-    height: 100px; }
+    height: 170px;
+    margin-top: 40px; }
     body footer img, html footer img {
-      width: 100%;
-      height: 100%; }
+      width: 100px;
+      height: 100px; }
+    body footer .text, html footer .text {
+      margin-left: 20px; }
+    body footer .one, html footer .one {
+      color: #2E2E2E;
+      margin-top: 10px;
+      font-size: 36px; }
+    body footer .two, html footer .two {
+      color: #848484;
+      font-size: 34px; }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 750px) {
   .down_btn > div {
     cursor: pointer; }
   .down_btn .Android {
