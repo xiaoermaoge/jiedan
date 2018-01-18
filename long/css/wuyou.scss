@@ -1,15 +1,19 @@
 body,html{
-  height: 100%;
+  //height: 100%;
   width: 100%;
+  display: inline-block;
+  position: relative;
   .container{
     width: 100%;
-    height: 100%;
+    //height: 100%;
+    height: 1711px;
     background: url('../images/wuyou-bg.png') 0% 0% / 100% 100%;
   }
   .bottom{
+    position: absolute;
     width: 100%;
     max-width: 750px;
-    position: fixed;
+    //position: fixed;
     bottom: 20px;
     .btn_container{
       width: 100%;

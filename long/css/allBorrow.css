@@ -1,15 +1,15 @@
 body, html {
   width: 100%;
-  height: 100%;
-  overflow: hidden; }
+  height: 100%; }
   body .container, html .container {
     width: 100%;
-    height: 100%;
+    height: 1367px;
+    position: relative;
     background: url("../images/allBorrow-bg.png") 0% 0%/100% 100%; }
   body .btn, html .btn {
     width: 100%;
     padding: 0 26px;
-    position: fixed;
+    position: absolute;
     box-sizing: border-box;
     bottom: 25px; }
     body .btn > div, html .btn > div {

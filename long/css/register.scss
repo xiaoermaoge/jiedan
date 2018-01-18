@@ -4,18 +4,18 @@ body, html {
   height: 100%;
   .container {
     width: 100%;
-    height: 1577px;
+    height: 2198px;
     box-sizing: border-box;
     background: url('../images/bc.png') 0% 0% / 100% 100%;
     position: relative;
     .main {
       position: absolute;
-      top: 680px;
+      top: 1000px;
       left: 0;
       padding: 0 44px;
       box-sizing: border-box;
       width: 100%;
-      height: 468px;
+      height: 514px;
       .content {
         background: rgba(255, 255, 255, 0.8);
         width: 100%;
@@ -23,7 +23,7 @@ body, html {
         border-radius: 20px;
 
         box-sizing: border-box;
-        padding: 40px 48px 0 48px;
+        padding: 50px 48px 0 48px;
         .text {
           line-height: 32px;
           text-align: center;
@@ -57,7 +57,7 @@ body, html {
             &:first-child {
               margin-top: 38px;
             }
-            margin-top: 23px;
+            margin-top: 46px;
             height: 90px;
             overflow: hidden;
             font-size: 32px;
@@ -126,7 +126,7 @@ body, html {
       .down_btn {
         width: 100%;
         box-sizing: border-box;
-        margin-top: 190px;
+        margin-top: 370px;
         > div {
           width: 274px;
           height: 110px;
@@ -152,7 +152,7 @@ body, html {
     }
   }
   footer {
-    width: 400px;
+    width: 368px;
     margin: 0 auto;
     height: 170px;
     margin-top: 40px;
